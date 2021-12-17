@@ -67,7 +67,7 @@ plt.title("Donnees standardisées")
 #  
 distance=0.04
 min_pts=2
-cl_pred = cluster.DBSCAN(eps=distance, min_samples=min_pts).fit_predict(data)
+cl_pred = cluster.DBSCAN(eps=distance, min_samples=min_pts).fit_predict(data_scaled)
 
 plt.figure()
 # Plot results

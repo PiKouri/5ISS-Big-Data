@@ -16,13 +16,6 @@ from sklearn import cluster
 from sklearn import metrics
 from sklearn.neighbors import NearestNeighbors
 
-import sys
-# insert at 1, 0 is the script path (or '' in REPL)
-sys.path.insert(1, 'lib/curvature-master')
-sys.path.insert(1, 'lib/')
-
-from curvature import Curvature
-
 ##################################################################
 # READ a data set (arff format)
 
